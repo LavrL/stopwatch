@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <script src="script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="stopwatch" id="container">
+        <div class="main" onclick="changeImage()" id="btn-start">
+            <img src="./images/pushBtn1.svg" class="pushBtn1" alt="button1" id="pushBtn1">
+            <img src="./images/pushBtn2.svg" class="pushBtn2" alt="button2" id="pushBtn2">
+            <img src="./images/pushBtn3.svg" class="pushBtn3" alt="button3" id="pushBtn3">
+        </div>
+        <div class="timer">
+            <img src="./images/playBtn.svg" id="playBtn">
+            <div class="current-time">
+                <div id="cur-time">00:00:00</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
